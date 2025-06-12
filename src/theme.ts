@@ -10,6 +10,7 @@ const roboto = Roboto({
 
 const theme = createTheme({
   modularCssLayers: "@layer theme, base, mui, components, utilities;",
+  cssVariables: true,
   typography: {
     fontFamily: roboto.style.fontFamily,
   },
